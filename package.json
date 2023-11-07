@@ -24,6 +24,8 @@
    },
    "scripts": {
       "typeorm": "typeorm-ts-node-commonjs",
-      "dev": "tsnd --ignore-watch node_modules --rs --cls src/server.ts"
+      "dev": "tsnd --ignore-watch node_modules --rs --cls src/server.ts",
+      "build": "tsc",
+      "start": "node dist/server.js"
    }
 }
